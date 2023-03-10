@@ -1,74 +1,86 @@
-:root{
-    --color-nav-back: #EFEFEF;
-    --color-links: #333;
-    --color-title: #F13C6E;
-    --color-light-gray: #EFEFEF;
-    --color-black: #000;
+:root {
+  --color-nav-back: #efefef;
+  --color-links: #333;
+  --color-title: #f13c6e;
+  --color-light-gray: #efefef;
+  --color-black: #000;
 }
 
-a{
-    color: var(--color-black);
-    text-decoration: none;
+a {
+  color: var(--color-black);
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.header-top{
-    background-color: var(--color-nav-back);
-    text-align: center;
-    padding: 16px 0;
+ul {
+  list-style: none;
 }
 
-.header-top a{
-    margin-left: 15px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.17;
-    color: var(--color-links);
+.header-top {
+  background-color: var(--color-nav-back);
+  text-align: center;
+  padding: 16px 0;
 }
 
-.header-main{
-    border: 1px solid var(--color-light-gray);
+.header-top a {
+  margin-left: 15px;
+  font-size: 14px;
+  color: var(--color-links);
 }
 
-.header-main-info{
-    width: 1100px;
-    margin: 0 auto;
+.header-main {
+  border: 1px solid var(--color-light-gray);
 }
 
-.clearfix::after{
-    display: block;
-    clear: both;
-    content: "";
+.header-main-info {
+  width: 1100px;
+  margin: 0 auto;
 }
 
-.logo{
-    float: left;
-    margin-top: 20px;
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
-.logo-text{
-    display: inline-block;
-    margin-left: 20px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    color: var(--color-title);
+.logo {
+  float: left;
+  margin-top: 20px;
 }
 
-.header-info{
-    float: right;
-    margin-top: 52px;
+.logo-text {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-title);
 }
 
-.header-info a{
-
+.header-info {
+  float: right;
+  margin-top: 52px;
 }
 
-.link-button{
-    display: inline-block;
-    width: 170px;
-    border: 2px solid var(--color-title);
-    border-radius: 40px;
-    text-align: center;
-    padding: 12px 0;
-    margin-left: 40px;
+.link-button {
+  display: inline-block;
+  width: 170px;
+  border: 2px solid var(--color-title);
+  border-radius: 40px;
+  text-align: center;
+  padding: 12px 0;
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.header-bottom {
+  text-align: center;
+}
+
+.header-bottom a {
+  display: inline-block;
+  margin: 30px 20px;
+}
+
+.title-section {
+  background-color: #efefef;
 }
