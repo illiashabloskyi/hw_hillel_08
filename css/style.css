@@ -4,6 +4,7 @@
   --color-title: #f13c6e;
   --color-light-gray: #efefef;
   --color-black: #000;
+  --color-white: #fff;
 }
 
 a {
@@ -28,13 +29,13 @@ ul {
   color: var(--color-links);
 }
 
-.header-main {
-  border: 1px solid var(--color-light-gray);
-}
-
-.header-main-info {
+.section-main {
   width: 1100px;
   margin: 0 auto;
+}
+
+.header-main {
+  border: 1px solid var(--color-light-gray);
 }
 
 .clearfix::after {
@@ -82,5 +83,47 @@ ul {
 }
 
 .title-section {
-  background-color: #efefef;
+  background-image: url(../images/background.png);
+  height: 604px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--color-white);
+  padding-top: 192px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.title-info {
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 1.42;
+  padding-bottom: 25px;
+}
+
+.title-section a {
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  margin: 0;
+}
+
+.section-about {
+  background-color: var(--color-light-gray);
+}
+
+.chair-price {
+  display: inline-block;
+  background-color: var(--color-white);
+  text-align: center;
+  width: 240px;
+  margin-top: 38px;
+  margin-right: 30px;
+  margin-left: 0px;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 80px;
 }
